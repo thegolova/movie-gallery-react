@@ -4,7 +4,7 @@ import Header from './Components/Header/Header';
 import HomeContainer from './Components/Home/HomeContainer';
 import LoginContainer from './Components/Login/LoginContainer';
 import Registration from './Components/Registration/Registration';
-import AddMovie from './Components/AddMovie/AddMovie';
+import AddMovieContainer from './Components/AddMovie/AddMovieContainer';
 import MovieDetailsContainer from './Components/MovieDetails/MovieDetailsContainer';
 import { Component } from 'react';
 import { connect } from 'react-redux'
@@ -35,7 +35,7 @@ class App extends Component {
 					<Route  path='/registration'
 									render={ () => <Registration />} />
 					<Route  path='/add'
-									render={ () => <AddMovie />} />
+									render={ () => <AddMovieContainer />} />
 					<Route  path='/details/:id?'
 									render={ () => <MovieDetailsContainer />} />
 				</div>

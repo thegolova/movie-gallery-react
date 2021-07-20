@@ -11,7 +11,7 @@ let maxLength150 = maxLengthCreator(150);
 const AddMovie = (props) => {
 
   const onSubmit = (formData) => {
-    console.log(formData);
+    props.addMovie(formData);
   };
 
   return (

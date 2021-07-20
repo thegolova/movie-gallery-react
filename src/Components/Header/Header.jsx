@@ -7,7 +7,7 @@ function Header(props) {
   return (
     <div className={styles.header} id="header">
       <NavLink to='/'>
-        <img src={homeIcon} className={styles.home} alt=""/>
+        <img src={homeIcon} className={styles.home} alt="home-icon"/>
       </NavLink>
 
       <div>

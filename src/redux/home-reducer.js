@@ -6,6 +6,7 @@ const SET_CURRENT_PAGE = "SET_CURRENT_PAGE";
 const SORT_MOVIES = "SORT_MOVIES";
 const TOGGLE_IS_FETCHING = "TOGGLE_IS_FETCHING";
 const DELETE_MOVIE = "DELETE_MOVIE";
+const ADD_MOVIE = "ADD_MOVIE";
 
 let initialState = {
 	movies: [],
@@ -82,6 +83,15 @@ const homeReducer = (state = initialState, action) => {
 				movies: state.movies.filter(film => film.id !== action.id)
 			}
 		}
+		case ADD_MOVIE: {
+			return {
+				...state,
+				movies: [
+					...state.movies,
+					action.movie
+				]
+			}
+		}
 		default: 
 			return state;
 	}
@@ -111,7 +121,12 @@ export const toggleIsFetching = (status) => ({
 export const deleteMovie = (id) => ({
 	type: DELETE_MOVIE,
 	id
-})
+});
+
+export const addMovie = (movie) => ({
+	type: ADD_MOVIE,
+	movie
+});
 
 /* thunk */
 export const getMovies = (currentPage) => {
