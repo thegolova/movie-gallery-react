@@ -1,0 +1,12 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  background-color: #15232c;
+  color: white;
+}
+
+.poster {
+  width: 250px;
+  border-radius: 5px;
+  padding: 5px;
+}

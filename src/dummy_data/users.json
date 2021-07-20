@@ -1,0 +1,16 @@
+[
+    {   
+        "id": 1,
+        "login": "admin",
+        "password": "admin",
+        "email": "admin",
+        "permission": 0
+    },
+    {
+        "id": 2,
+        "login": "golova",
+        "password": "12345",
+        "email": "thegolova@gmail.com",
+        "permission": 1
+    }
+]

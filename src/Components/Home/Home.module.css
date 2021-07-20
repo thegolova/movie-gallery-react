@@ -1,0 +1,54 @@
+.container {
+  background-color: #111018;
+}
+
+.list {
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btnAdd {
+  width: 150px;
+  height: 35px;
+  border: 2px solid #e4d804;
+  background-color: transparent;
+  color: #ffffff;
+  border-radius: 25px;
+  margin: 5px;
+}
+
+
+.select {
+  margin: 5px;
+  width: 125px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination span {
+  text-align: center;
+  margin: 2px;
+  border: 1px solid white;
+  color: white;
+  font-size: 18px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  margin: 20px 3px;
+}
+
+.selectedPage {
+  background-color: #e4d804;
+  color: black !important;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}

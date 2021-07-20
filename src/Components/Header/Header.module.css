@@ -1,0 +1,32 @@
+.header {
+  background-color: #111018;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.home {
+  height: 100%;
+}
+
+.btnLogin {
+  border: 2px solid #e4d804;
+  height: 100%;
+  width: 150px;
+  background-color: transparent;
+  font-size: 20px;
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+.loginName {
+  display: inline-block;
+  color: #e4d804;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 15px;
+  text-align: center;
+}
