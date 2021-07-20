@@ -19,7 +19,7 @@ function Movie(props) {
           e.preventDefault();
           handleDelete(props.id);
           }}>
-        <img src={deleteIcon}/>
+        <img src={deleteIcon} alt="delete-icon"/>
 
       </div> }
       </div>
